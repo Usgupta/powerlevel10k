@@ -1937,5 +1937,5 @@ Some fonts have this incorrect dotted icon in bold typeface. There are two ways 
 2. Display the icon in regular (non-bold) typeface. To do this, open `~/.p10k.zsh`, search for
    `POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION` and remove `%B` from its value.
 ```zsh
-typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='${P9K_CONTENT}'  # not bold
+typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='${P9K_CONTENT}'  # not bold 
 ```
